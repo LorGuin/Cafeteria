@@ -1,0 +1,47 @@
+customElements.define(
+  "footer-cafeteria",
+  class extends HTMLElement {
+    shadow: ShadowRoot;
+    constructor() {
+      super();
+      this.shadow = this.attachShadow({ mode: "open" });
+    }
+    connectedCallback() {
+      //nota: el href debe ser relativo al index.html
+      //creamos el href dinamicamente para inyectarlo en el shadow DOM
+      const link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = "../../scss/app.scss";
+      this.shadow.appendChild(link);
+
+      const footer = document.createElement("footer");
+      footer.className = "footer-cafeteria";
+      footer.innerHTML = `
+            <footer class="footer">
+                    <div class="contenedor contenido-footer bg-white">
+                        <div class="footer-box ubicacion">
+                            <h3>Ubicación</h3>
+                            <p>Vucetich 2914</p>
+                            <p>Col. Santa María la Ribera, CDMX</p>
+                        </div>
+                    <div class="footer-box reservacion">
+                        <h3>Reservación</h3>
+                        <p>Tel: 55 1234 5678</p>
+                        <a href="tel:5512345678">Llamar</a> <!-- Corregido el href -->
+                    </div>
+                    <div class="footer-box horario">
+                        <h3>Horario</h3>
+                        <p>Lun - Vie: 7:00 - 18:00</p>
+                        <p>Sab: 8:00 - 15:00</p>
+                        <p>Dom: 09:00 - 15:00</p>
+                    </div>
+                    </div>
+                    <p class="copyright">Todos los derechos reservados. La Cafeteria</p>
+                    
+                 </footer>
+            
+        `;
+      this.shadow.appendChild(footer);
+    }
+  }
+);
