@@ -19,17 +19,17 @@ export function initInicio() {
       <section class="iconos">
         <ul class="listado-iconos">
           <li>
-            <img src="../../img/icono_cafe.svg" alt="icono café">
+            <img src="/src/img/icono_cafe.svg" alt="icono café">
             <p>Café</p>
           </li>
 
           <li>
-            <img src="../../img/icono_postre.svg" alt="icono postre">
+            <img src="/src/img/icono_postre.svg" alt="icono postre">
             <p>Postres</p>
           </li>
 
           <li>
-            <img src="../../img/icono_te.svg" alt="icono té">
+            <img src="/src/img/icono_te.svg" alt="icono té">
             <p>Té</p>
           </li>
         </ul>
@@ -40,41 +40,41 @@ export function initInicio() {
           <div class="galeria">
 
             <div class="imagen">
-              <img src="../../img/galeria/galeria_01.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_01.jpg" alt="galeria">
               </div>
             <div class="imagen">
-              <img src="../../img/galeria/galeria_02.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_02.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="../../img/galeria/galeria_03.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_03.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="../../img/galeria/galeria_04.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_04.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="../../img/galeria/galeria_05.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_05.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="../../img/galeria/galeria_06.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_06.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="../../img/galeria/galeria_07.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_07.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="../../img/galeria/galeria_08.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_08.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="../../img/galeria/galeria_09.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_09.jpg" alt="galeria">
               </div>
               <div class="imagen">
-              <img src="../../img/galeria/galeria_10.jpg" alt="galeria">
+              <img src="/src/img/galeria/galeria_10.jpg" alt="galeria">
               </div>
               
               </section> 
             </main>
               
               <menu-cafeteria></menu-cafeteria>
-       
+      
       <section class="nuestros-testimoniales contenedor margin-negativo-10 bg-white">
         <h2><span>Lo que dicen nuestros</span>Clientes</h2>
 
@@ -87,7 +87,7 @@ export function initInicio() {
       </section>
       
       <footer-cafeteria></footer-cafeteria>
-     
+      
     `;
 
   return div;

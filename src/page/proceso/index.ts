@@ -13,7 +13,7 @@ export function initProceso() {
     <main class="contenedor contenido-principal">
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="../../img/proceso_1.jpg" alt="imagen proceso">
+              <img src="/src/img/proceso_1.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
@@ -24,18 +24,18 @@ export function initProceso() {
 
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="../../img/proceso_2.jpg" alt="imagen proceso">
+              <img src="/src/img/proceso_2.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
               <h3>Tostar el Café</h3>
-              <p>Tostamos los granos de café con cuidado para obtener una textura suave y aromática.</p>
+              <p>Tostamos los granos de café con cuidado para obtener una textura suave y aromática.</p>
             </div>
         </div>
 
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="../../img/proceso_3.jpg" alt="imagen proceso">
+              <img src="/src/img/proceso_3.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
@@ -46,18 +46,18 @@ export function initProceso() {
 
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="../../img/proceso_4.jpg" alt="imagen proceso">
+              <img src="/src/img/proceso_4.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
               <h3>Moler granos de Café</h3>
-              <p>Molimos los granos de Café con cuidado para obtener una textura suave y aromática</p>
+              <p>Molimos los granos de Café con cuidado para obtener una textura suave y aromática</p>
             </div>
         </div>
 
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="../../img/proceso_5.jpg" alt="imagen proceso">
+              <img src="/src/img/proceso_5.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
@@ -67,9 +67,9 @@ export function initProceso() {
         </div>
 
     </main>
-        
+      
       <footer-cafeteria></footer-cafeteria>
-     
+      
     `;
 
   return div;

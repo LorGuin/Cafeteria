@@ -1,7 +1,7 @@
 export function initContacto() {
   const div = document.createElement("div");
 
-  div.className = "init-proceso";
+  div.className = "init-contacto";
   div.innerHTML = `
     <header class="header header-contacto">
         <div class="contenido-header contenedor">

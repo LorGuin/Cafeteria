@@ -1,3 +1,6 @@
+// 1. IMPORTA LOS ESTILOS USANDO '?inline'
+import styles from "../../scss/app.scss?inline";
+
 customElements.define(
   "footer-cafeteria",
   class extends HTMLElement {
@@ -7,12 +10,10 @@ customElements.define(
       this.shadow = this.attachShadow({ mode: "open" });
     }
     connectedCallback() {
-      //nota: el href debe ser relativo al index.html
-      //creamos el href dinamicamente para inyectarlo en el shadow DOM
-      const link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.href = "../../scss/app.scss";
-      this.shadow.appendChild(link);
+      // 2. CREA UNA ETIQUETA <style> E INYECTA LOS ESTILOS
+      const style = document.createElement("style");
+      style.innerHTML = styles;
+      this.shadow.appendChild(style);
 
       const footer = document.createElement("footer");
       footer.className = "footer-cafeteria";
@@ -27,7 +28,7 @@ customElements.define(
                     <div class="footer-box reservacion">
                         <h3>Reservación</h3>
                         <p>Tel: 55 1234 5678</p>
-                        <a href="tel:5512345678">Llamar</a> <!-- Corregido el href -->
+                        <a href="tel:5512345678">Llamar</a>
                     </div>
                     <div class="footer-box horario">
                         <h3>Horario</h3>
@@ -38,7 +39,7 @@ customElements.define(
                     </div>
                     <p class="copyright">Todos los derechos reservados. La Cafeteria</p>
                     
-                 </footer>
+                  </footer>
             
         `;
       this.shadow.appendChild(footer);

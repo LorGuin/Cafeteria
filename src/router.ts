@@ -63,7 +63,7 @@ const routes: RouterPath[] = [
 ];
 
 // Funcion para renderizar rutas en una aplicación web simple
-function goTo(path: string): void {
+export function goTo(path: string): void {
   window.history.pushState({}, "", path);
   renderPath(path);
 }

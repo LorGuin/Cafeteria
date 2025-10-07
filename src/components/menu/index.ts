@@ -1,3 +1,6 @@
+// 1. IMPORTA LOS ESTILOS USANDO '?inline'
+import styles from "../../scss/app.scss?inline";
+
 customElements.define(
   "menu-cafeteria",
   class extends HTMLElement {
@@ -7,12 +10,10 @@ customElements.define(
       this.shadow = this.attachShadow({ mode: "open" });
     }
     connectedCallback() {
-      //nota: el href debe ser relativo al index.html
-      //creamos el href dinamicamente para inyectarlo en el shadow DOM
-      const link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.href = "../../scss/app.scss";
-      this.shadow.appendChild(link);
+      // 2. CREA UNA ETIQUETA <style> E INYECTA LOS ESTILOS
+      const style = document.createElement("style");
+      style.innerHTML = styles;
+      this.shadow.appendChild(style);
 
       const div = document.createElement("div");
       div.className = "menu-cafeteria";
@@ -92,7 +93,7 @@ customElements.define(
             </section>
         </div>
     </section>
-        `;
+      `;
       this.shadow.appendChild(div);
     }
   }
