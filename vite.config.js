@@ -35,5 +35,4 @@ export default defineConfig({
     },
     assetsDir: 'assets',
   },
-  assetsInclude: ['**/*.html'],
 });
