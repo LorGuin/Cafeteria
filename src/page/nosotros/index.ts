@@ -15,7 +15,7 @@ export function initNosotros() {
 
         <div class="contenido-nosotros">
           <div class="imagen">
-              <img src="/src/img/nosotros_sidebar.jpg" alt="imagen nosotros">
+              <img src="/img/nosotros_sidebar.jpg" alt="imagen nosotros">
           </div>
           <div class="texto">
               <p>En nuestra cafetería, nos apasiona ofrecer a nuestros clientes una experiencia única y memorable. Desde el primer sorbo de nuestro café artesanal hasta el último bocado de nuestros deliciosos postres, cada detalle está cuidadosamente diseñado para satisfacer los sentidos y crear momentos especiales.</p>

@@ -1,6 +1,5 @@
-// Importa la función goTo de tu router y los estilos CSS
-import { goTo } from "../../router"; // Asegúrate de que la ruta a tu router.ts sea correcta
-import styles from "../../scss/app.scss?inline"; // Importa los estilos para inyectarlos
+import { goTo } from "../../router";
+import styles from "../../scss/app.scss?inline";
 
 customElements.define(
   "barra-menu",
@@ -22,7 +21,7 @@ customElements.define(
       div.innerHTML = `
         <div class="barra"> 
           <div class="logo">
-              <img src="/src/img/logo.svg" alt="logo cafeteria">
+              <img src="/img/logo.svg" alt="logo cafeteria">
           </div>
 
           <nav class="nav-principal">

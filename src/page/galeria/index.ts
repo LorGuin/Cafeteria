@@ -18,34 +18,34 @@ export function initGaleria() {
           <div class="galeria">
 
             <div class="imagen">
-              <img src="/src/img/galeria/galeria_01.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_01.jpg" alt="galeria">
               </div>
             <div class="imagen">
-              <img src="/src/img/galeria/galeria_02.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_02.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="/src/img/galeria/galeria_03.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_03.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="/src/img/galeria/galeria_04.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_04.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="/src/img/galeria/galeria_05.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_05.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="/src/img/galeria/galeria_06.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_06.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="/src/img/galeria/galeria_07.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_07.jpg" alt="galeria">
             </div>
             <div class="imagen">
               <img src="/src/img/galeria/galeria_08.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="/src/img/galeria/galeria_09.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_09.jpg" alt="galeria">
               </div>
               <div class="imagen">
-              <img src="/src/img/galeria/galeria_10.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_10.jpg" alt="galeria">
               </div>
     </main>
       

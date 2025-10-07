@@ -13,7 +13,7 @@ export function initProceso() {
     <main class="contenedor contenido-principal">
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="/src/img/proceso_1.jpg" alt="imagen proceso">
+              <img src="/img/proceso_1.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
@@ -24,7 +24,7 @@ export function initProceso() {
 
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="/src/img/proceso_2.jpg" alt="imagen proceso">
+              <img src="/img/proceso_2.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
@@ -35,7 +35,7 @@ export function initProceso() {
 
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="/src/img/proceso_3.jpg" alt="imagen proceso">
+              <img src="/img/proceso_3.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
@@ -46,7 +46,7 @@ export function initProceso() {
 
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="/src/img/proceso_4.jpg" alt="imagen proceso">
+              <img src="/img/proceso_4.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
@@ -57,7 +57,7 @@ export function initProceso() {
 
        <div class="proceso-cafe">
             <div class="imagen">
-              <img src="/src/img/proceso_5.jpg" alt="imagen proceso">
+              <img src="/img/proceso_5.jpg" alt="imagen proceso">
             </div>
 
             <div class="texto">
