@@ -39,7 +39,7 @@ export function initGaleria() {
               <img src="/img/galeria/galeria_07.jpg" alt="galeria">
             </div>
             <div class="imagen">
-              <img src="/src/img/galeria/galeria_08.jpg" alt="galeria">
+              <img src="/img/galeria/galeria_08.jpg" alt="galeria">
             </div>
             <div class="imagen">
               <img src="/img/galeria/galeria_09.jpg" alt="galeria">
